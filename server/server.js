@@ -19,7 +19,7 @@ const authCheck = jwt({
         jwksUri: "https://newgermes.auth0.com/.well-known/jwks.json"
     }),
     // This is the identifier we set when we created the API
-    audience: '{YOUR-API-AUDIENCE-ATTRIBUTE}',
+    audience: 'https://thebestofthebest',
     issuer: "https://newgermes.auth0.com/",
     algorithms: ['RS256']
 });
